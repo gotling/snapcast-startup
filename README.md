@@ -64,7 +64,9 @@ Change *CODEC* variable if you have a fast network.
 	$ update-rc.d snapclient defaults
 	$ /etc/init.d/snapclient start
 
-Change *SERVER* variable if running client on other device then server.
+Change *SERVER* variable to the ip of the Snapcast server.
+
+**NOTE!** The Volumio device will need to run both the Snapcast server and client if you will have speakers connected to it.
 
 
 Links
