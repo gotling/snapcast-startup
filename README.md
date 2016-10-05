@@ -1,6 +1,6 @@
 Snapcast startup
 ================
-Scripts for running Snapcast server and client on system start. Specific instructions for Volumio2.
+Scripts for running Snapcast server and client on system start. Specific instructions for [Volumio2](https://volumio.org) which is running Debian.
 
 Prepend all commands with `sudo` or run as root.
 
@@ -51,20 +51,20 @@ Restart mpd
 ### Server
 
 	$ chmod +x snapserver.sh
-	$ ln -s snapserver.sh /etc/init.d/snapserver
+	$ ln -s $PWD/snapserver.sh /etc/init.d/snapserver
 	$ update-rc.d snapserver defaults
 	$ /etc/init.d/snapserver start
 
-Change CODEC variable if you have a fast network.
+Change *CODEC* variable if you have a fast network.
 
 ### Client
 
 	$ chmod +x snapclient.sh
-	$ ln -s snapclient.sh /etc/init.d/snapclient
+	$ ln -s $PWD/snapclient.sh /etc/init.d/snapclient
 	$ update-rc.d snapclient defaults
 	$ /etc/init.d/snapclient start
 
-Change SERVER variable if running client on other device.
+Change *SERVER* variable if running client on other device then server.
 
 
 Links
