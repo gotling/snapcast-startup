@@ -1,6 +1,6 @@
 Snapcast startup
 ================
-Scripts for running Snapcast server and client on system start. Specific instructions for [Volumio2](https://volumio.org) which is running Debian.
+Scripts for running [Snapcast](https://github.com/badaix/snapcast) multi-room audio server and client on system start. Specific instructions for [Volumio2](https://volumio.org) which is running Debian.
 
 Prepend all commands with `sudo` or run as root.
 
